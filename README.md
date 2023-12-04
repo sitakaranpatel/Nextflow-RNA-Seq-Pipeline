@@ -13,25 +13,27 @@ Make sure to adjust the paths and parameters in the config file to match your sp
 
 ## Usage
 To run the pipeline, use the following command:
-  nextflow run rnaseq_script.nf -c nextflow.config
+```
+nextflow run rnaseq_script.nf -c nextflow.config
+```
 This command runs the rnaseq_script.nf script with the options specified in the nextflow.config file
 
 ## Output
 The pipeline generates several output files, including:
 
--Trimmed fastq files
--Fastqc reports of the trimmed reads
--Aligned bam files
--Tab-separated gene counts
--MultiQC report
+- Trimmed fastq files
+- Fastqc reports of the trimmed reads
+- Aligned bam files
+- Tab-separated gene counts
+- MultiQC report
 The output files are located in the directory specified in the config file.
 
 ## Dependencies
 The pipeline uses the following tools and libraries:
 
--Trimmomatic
--FastQC
--STAR aligner
--FeatureCounts
--MultiQC
+- Trimmomatic
+- FastQC
+- STAR aligner
+- FeatureCounts
+- MultiQC
 All dependencies are included in the Docker image.
