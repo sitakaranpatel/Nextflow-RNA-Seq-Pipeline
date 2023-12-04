@@ -7,6 +7,7 @@ Automated RNA Seq Analysis Pipeline
 </p>
 
 ## Prerequisites
+
 - Docker
 - Nextflow
 
