@@ -2,6 +2,9 @@
 Automated RNA Seq Analysis Pipeline
 - This pipeline automates the process of RNA-seq analysis by performing several steps such as trimming, alignment, quantification, and summarizing the results.
 
+  <p align="center" width="100%">
+    <img width="33%" src="https://github.com/sitakaranpatel/Nextflow-RNA-Seq-Pipeline/blob/main/flowchart.png"> 
+</p>
 
 ## Prerequisites
 Docker
@@ -16,10 +19,6 @@ To run the pipeline, use the following command to the rnaseq_script.nf script wi
 ```
 nextflow run rnaseq_script.nf -c nextflow.config
 ```
-
-<p align="center" width="100%">
-    <img width="33%" src="https://github.com/sitakaranpatel/Nextflow-RNA-Seq-Pipeline/blob/main/flowchart.png"> 
-</p>
 
 ## Output
 The pipeline generates several output files, including:
