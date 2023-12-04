@@ -18,7 +18,7 @@ nextflow run rnaseq_script.nf -c nextflow.config
 ```
 This command runs the rnaseq_script.nf script with the options specified in the nextflow.config file
 <p align="center" width="100%">
-    <img src="https://github.com/sitakaranpatel/Nextflow-RNA-Seq-Pipeline/blob/main/flowchart.png"> 
+    <img width="33%" src="https://github.com/sitakaranpatel/Nextflow-RNA-Seq-Pipeline/blob/main/flowchart.png"> 
 </p>
 
 ## Output
