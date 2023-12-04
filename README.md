@@ -7,8 +7,8 @@ Automated RNA Seq Analysis Pipeline
 </p>
 
 ## Prerequisites
-Docker
-Nextflow
+--Docker
+--Nextflow
 
 ## Installation
 Clone this repository: git clone https://github.com/your_username/RNA-seq-pipeline.git\ Build the Docker image: docker build -t rna-seq-pipeline .
