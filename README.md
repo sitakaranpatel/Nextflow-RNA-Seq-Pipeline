@@ -12,7 +12,14 @@ Automated RNA Seq Analysis Pipeline
 - Nextflow
 
 ## Installation
-Clone this repository: git clone https://github.com/your_username/RNA-seq-pipeline.git\ Build the Docker image: docker build -t rna-seq-pipeline .
+Clone this repository: 
+```
+git clone https://github.com/your_username/RNA-seq-pipeline.git\ 
+```
+Build the Docker image: 
+```
+docker build -t rna-seq-pipeline 
+```
 Make sure to adjust the paths and parameters in the config file to match your specific pipeline and system.
 
 ## Usage
@@ -29,6 +36,7 @@ The pipeline generates several output files, including:
 - Aligned bam files
 - Tab-separated gene counts
 - MultiQC report
+  
 The output files are located in the directory specified in the config file.
 
 ## Dependencies
