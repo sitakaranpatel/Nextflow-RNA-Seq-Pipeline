@@ -39,4 +39,5 @@ The pipeline uses the following tools and libraries:
 - STAR aligner
 - FeatureCounts
 - MultiQC
+- 
 All dependencies are included in the Docker image.
