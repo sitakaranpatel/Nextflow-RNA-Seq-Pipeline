@@ -14,7 +14,7 @@ Automated RNA Seq Analysis Pipeline
 ## Installation
 Clone this repository: 
 ```
-git clone https://github.com/your_username/RNA-seq-pipeline.git\ 
+git clone https://github.com/sitakaranpatel/RNA-seq-pipeline.git\ 
 ```
 Build the Docker image: 
 ```
