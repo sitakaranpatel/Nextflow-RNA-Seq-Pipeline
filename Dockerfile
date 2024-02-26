@@ -27,4 +27,4 @@ COPY adapters.fa /root/adapters.fa
 WORKDIR /root
 
 # Run the Nextflow script
-CMD ["nextflow", "run", "pipeline.nf"]
+CMD ["nextflow", "run", "rna_script.nf"]
