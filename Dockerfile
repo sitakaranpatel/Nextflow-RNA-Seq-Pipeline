@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y \
 RUN wget -qO- https://get.nextflow.io | bash
 
 # Copy the Nextflow script into the container
-COPY pipeline.nf /root/pipeline.nf
+COPY rnaseq_script.nf /root/pipeline.nf
 
 # Copy the necessary reference files into the container
 COPY genomeIndex/ /root/genomeIndex/
